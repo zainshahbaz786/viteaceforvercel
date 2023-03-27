@@ -1,0 +1,163 @@
+
+.card.card-custom > .card-header {
+    min-height: 55px !important;
+    height: 55px !important;
+}
+.brand-logo img , .mobileLogo{
+    width : 4rem;
+}
+.aside-minimize:not(.aside-minimize-hover) .brand .brand-logo img {
+    display: block !important;
+}
+.brand {
+    justify-content: center !important;
+}
+
+/* separator with Text */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+/* separator with Text */
+
+  .googleLoginBtn{
+      width: 17px;
+      margin-right: 10px;
+  }
+
+.bg-hover-gery:hover{
+  transition: all 0.15s ease;
+    background-color: #eeeeee !important;
+}
+.border-2x {
+  border: 2px solid #EBEDF3 !important;
+}
+.min-w-15{
+  min-width: 15rem;
+}
+.min-w-5{
+  min-width: 5rem;
+}
+.min-w-6{
+  min-width: 6rem;
+}
+
+.border-right-2x {
+  border-right: 2px solid #000000 !important;
+}
+.bg-light-grey {
+  background-color: #ebedf3 !important;
+}
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 1px !important;
+  border-style: groove !important;
+  border-color: #000 !important;
+  border-image: none !important;
+  border-image: initial !important;
+  padding: 5px 15px 15px 15px !important;
+  border-radius: 2px;
+}
+legend {
+  display: block;
+  width: unset !important;
+  max-width: 100%;
+  padding: 4px;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+.table th, .table td {
+  vertical-align: middle !important;
+}
+.table-sm th {
+  padding: .5rem !important;
+}
+
+.show-child-on-hover .show-on-hover-parent {
+  display: none !important;
+}
+
+.show-child-on-hover:hover .show-on-hover-parent {
+  display: block !important;
+}
+.custom-switch .custom-control-label::before {
+  left: -2.25rem;
+  width: 2.4rem !important;
+  pointer-events: all;
+  border-radius: 1.5rem !important;
+}
+.custom-control-label::before {
+  position: absolute;
+  top: 0.15rem !important;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1.5rem !important;
+  pointer-events: none;
+  content: "";
+  background-color: #ffffff;
+  border: #B5B5C3 solid 1px;
+  box-shadow: none;
+}
+
+.custom-switch .custom-control-label::after {
+  top: calc(0.33rem) !important;
+  left: calc(-2.25rem + 3px) !important;
+  width: calc(1.2rem) !important;
+  height: calc(1.1rem) !important;
+  background-color: #B5B5C3;
+  border-radius: 1.5rem !important;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.bg-custom{
+  background-color: #162C55;
+  color: #ffffff;
+}
+.contact-list{
+  max-height: 60vh;
+  overflow-y: auto;
+  min-height: 55vh;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+  background: #eeeeee !important;
+  border-left: 1px solid darken(rgba(0, 0, 0, 0.075), 60%);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darken(#c4c4c4, 90%);
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.dropdown-toggle.btn:after {
+  display: none !important;
+}
